@@ -14,7 +14,7 @@ Via the [Chrome Web Store](https://chrome.google.com/webstore/detail/grpc-web-de
 
 or
 
-  1. build it with `make build`
+  1. build it with `make build` (if you don't have make, `yarn` then `yarn build`)
   1. open the **Extension Management** page by navigating to `chrome://extensions`.
   1. enable **Developer Mode** by clicking the toggle switch next to "Developer mode".
   1. Click the **LOAD UNPACKED** button and select the extension `./build` directory.
