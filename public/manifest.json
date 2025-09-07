@@ -1,6 +1,6 @@
 {
   "name": "gRPC-Web Developer Tools",
-  "version": "1.2.1",
+  "version": "1.4.1",
   "manifest_version": 2,
   "description": "gRPC-Web Developer Tools for debugging application's gRPC-Web network requests.",
   "icons": {
@@ -16,6 +16,7 @@
     ],
     "persistent": false
   },
+  "web_accessible_resources": ["connect-web-interceptor.js"],
   "content_scripts": [
     {
       "matches": [
@@ -28,7 +29,5 @@
       "all_frames": true
     }
   ],
-  "permissions": [
-    "activeTab"
-  ]
+  "permissions": []
 }
